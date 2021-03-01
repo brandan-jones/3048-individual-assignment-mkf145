@@ -1,3 +1,8 @@
+/**
+ * Implemented RetrofitClientInstance object to accesses retrofit object
+ * This parses the JSON formatted data
+ */
+
 package app.plantdiary.individualassignment3048q
 
 import retrofit2.Retrofit
