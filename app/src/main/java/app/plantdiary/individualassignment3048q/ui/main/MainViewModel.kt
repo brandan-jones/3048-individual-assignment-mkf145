@@ -1,3 +1,9 @@
+/**
+ * MainViewModel with mutable livedata countries
+ * Added Country service class to wire the model view
+ *
+ */
+
 package app.plantdiary.individualassignment3048q.ui.main
 
 import androidx.lifecycle.MutableLiveData
@@ -7,9 +13,6 @@ import app.plantdiary.individualassignment3048q.service.CountryService
 import retrofit2.Call
 import retrofit2.http.GET
 
-/**
- * Created ICountryDAO that contains GET Function
- */
 class MainViewModel : ViewModel() {
     var countries: MutableLiveData<ArrayList<Country>> = MutableLiveData<ArrayList<Country>>()
     var countryService: CountryService = CountryService()
