@@ -1,3 +1,7 @@
+/**
+ *Creating a service class that integrates the RetrofitClientInstance and DAO
+ *
+ */
 package app.plantdiary.individualassignment3048q.service
 
 import androidx.lifecycle.MutableLiveData
